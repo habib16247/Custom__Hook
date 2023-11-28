@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import HookFetch from '../HookFetch'
-import Users from './users'
 import "./user.css"
+import Users from './users'
+
 
 const UserList = () => {
     const {data:user} = HookFetch("https://jsonplaceholder.typicode.com/posts")
