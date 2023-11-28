@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import HookFetch from '../HookFetch'
 import "./user.css"
-import Users from './users'
+import Users from './Users';
 
 
 const UserList = () => {

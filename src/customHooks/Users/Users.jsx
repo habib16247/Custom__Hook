@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Users = ({item}) => {
-    const {id, title, body} = item;
+  const {id, title, body} = item;
     console.log(body)
   return (
     <>
