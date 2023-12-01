@@ -14,6 +14,7 @@ const Users = ({item}) => {
             <p>{body}</p>
          </div>
      </div>
+     
     </>
   )
 }

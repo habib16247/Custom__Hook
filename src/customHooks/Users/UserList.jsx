@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import HookFetch from '../HookFetch'
 import "./user.css"
 import Users from './Users';
+import CommentList from '../Comments/CommentList';
+import PostList from '../Posts/PostList';
 
 
 const UserList = () => {
@@ -11,6 +13,7 @@ const UserList = () => {
     const moreUser = seeMore ? user : user.slice(0,12)
 
   return (
+    <>
     <div className='usersContainer'>
         <h1>Users</h1> 
         <div className="users-card">
@@ -24,6 +27,10 @@ const UserList = () => {
             )
         } 
     </div>
+    
+    <CommentList />
+    <PostList />
+    </>
   )
 }
 

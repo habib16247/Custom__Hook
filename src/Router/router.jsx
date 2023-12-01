@@ -20,6 +20,11 @@ const cardRouting = createBrowserRouter([
         {
             path: "/users",
             element: <UserList />
+        },
+        {
+            path: "/*",
+            element: <h2>404 - Your page is not </h2>
+
         }
     ]
     }

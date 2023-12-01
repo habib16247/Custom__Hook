@@ -1,6 +1,28 @@
+*{
+  text-decoration: none;
+  outline: none;
+}
 ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
   text-decoration: none;
+  outline: none;
+}
+
+li {
+  text-decoration: none;
+  
+}
+
+.active {
+  padding: 10px;
+  background: #050505;
+  color: aliceblue;
+}
+
+.inactive {
+  padding: 10px;
+  background: #b4a2a2;
+  color: #050505;
 }
